@@ -21,6 +21,12 @@
     <ClInclude Include="LinearList.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LinkNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="listn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Demo.cpp">

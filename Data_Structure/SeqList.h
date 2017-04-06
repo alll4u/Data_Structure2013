@@ -114,7 +114,7 @@ bool SeqList<T>::IsEmpty() const{ return (last == -1) ? true : false; }
 template <class T>
 bool SeqList<T>::Remove(int i, T& x){
 	if (last == -1) return false;
-	x = data[i - 1]; b
+	x = data[i - 1];
 	if (i < 0 || i>last + 1) return false;
 	for (int j = last; j > i; j--){
 		data[j - 1] = data[j];
