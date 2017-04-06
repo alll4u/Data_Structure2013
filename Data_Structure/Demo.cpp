@@ -1,25 +1,33 @@
 #include <iostream>
-#include "SeqList.h"
+#include "LinkNode.h"
 using namespace std;
 
 void main() {
-	SeqList<int> test(10);
-	int x = 1;
-	test.Insert(0, x);
-	x = 2; 
-	test.Insert(1, x);
-	test.Insert(1, x);
-	test.Insert(1, x);
-	test.Insert(1, x);
-	test.Insert(1, x);
-	cout << "length " << test.Length() << endl; 
-	cout << "isfull " << test.IsFull() << endl;
-	cout << "isempty " << test.IsEmpty() << endl;
-	cout << test.Size() << endl;
-	cout << test.Length() << endl;
-	int y;
-	test.Remove(2, y);
-	cout << "Length is " << test.Length() << " y " << y << endl;
+	List<int> lst;
+	int bn = 5;
+	lst.Insert(2, bn);
+	for (int i = 0; i < 10; i++){
+		lst.Insert(i, i);
+	}
+	int a;
+	for (int i = 0; i < 10; i++){
+		lst.getData(i+2, a);
+		
+		cout << "a is " << a << endl;
+	}
+	List<int> lst2 = lst;
+	for (int i = 0; i < 10; i++){
+		lst2.getData(i + 2, a);
+		cout << "address: " << lst.Locate(i + 2) << endl;
+		cout << "address: "<<lst2.Locate(i + 2) << endl;
+		cout << "a is " << a << endl;
+	}
+	lst2.output();
+
+	List<double> dLst;
+	dLst.input(0.0);
+	dLst.output();
+
 	system("pause");
 
 }
