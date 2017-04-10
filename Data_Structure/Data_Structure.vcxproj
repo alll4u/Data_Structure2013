@@ -65,9 +65,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="LinearList.h" />
+    <ClInclude Include="LinkedStack.h" />
     <ClInclude Include="LinkNode.h" />
     <ClInclude Include="listn.h" />
     <ClInclude Include="SeqList.h" />
+    <ClInclude Include="SLink.h" />
+    <ClInclude Include="Stack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Demo.cpp" />
