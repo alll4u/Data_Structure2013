@@ -29,27 +29,27 @@ private:
 };
 
 
-void main(){
-
-	//LinkedStack<double> a;
-	//double b;
-	//a.Push(12);
-	//a.Push(13);
-	//a.Pop(b);
-	//cout << "b is " << b << endl;
-	//a.Pop(b);
-	//cout << "b is " << b << endl;
-	
-
-	double result = 0;
-	Expression exp;
-	//exp.inputExp();
-	//exp.postfix();
-	
-	result = exp.calculate();
-
-	system("pause");
-}
+//void main(){
+//
+//	//LinkedStack<double> a;
+//	//double b;
+//	//a.Push(12);
+//	//a.Push(13);
+//	//a.Pop(b);
+//	//cout << "b is " << b << endl;
+//	//a.Pop(b);
+//	//cout << "b is " << b << endl;
+//	
+//
+//	double result = 0;
+//	Expression exp;
+//	//exp.inputExp();
+//	//exp.postfix();
+//	
+//	result = exp.calculate();
+//
+//	system("pause");
+//}
 int Expression::isp(char ch){
 	int priority = 0;
 	switch (ch){

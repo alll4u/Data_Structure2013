@@ -77,6 +77,7 @@
     <ClCompile Include="Demo.cpp" />
     <ClCompile Include="expressionEvaluate.cpp" />
     <ClCompile Include="Maze.cpp" />
+    <ClCompile Include="postfix.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
