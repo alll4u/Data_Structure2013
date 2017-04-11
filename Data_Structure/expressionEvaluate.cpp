@@ -96,7 +96,7 @@ void Expression::postfix(){
 				ss.Pop(tempSymbol);
 			}
 		}
-		//其他符号，一直
+		//其他符号，一直不会了
 		else {
 			ss.getTop(tempSymbol);
 			//如果新的符号ch的优先级不比栈顶低，一直输出
