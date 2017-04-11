@@ -36,9 +36,18 @@
     <ClInclude Include="LinkedStack.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="心得.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Maze.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="expressionEvaluate.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

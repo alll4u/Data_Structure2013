@@ -25,25 +25,6 @@ void PrintMatchedPairs(string exp){
 		cout << "nomatch with " << j << endl;
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	//int j = 0;
 	//for (int i = 1; i <= length; i++){
 	//	if (exp[i - 1] == '(') s.Push(i);
@@ -61,11 +42,11 @@ void PrintMatchedPairs(string exp){
 	//}
 }
 
-void main() {
-
-	PrintMatchedPairs("((((dd(123d)");
-
-
-	system("pause");
-
-}
+//void main() {
+//
+//	PrintMatchedPairs("((((dd(123d)");
+//
+//
+//	system("pause");
+//
+//}
