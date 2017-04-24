@@ -68,12 +68,15 @@
     <ClInclude Include="LinkedStack.h" />
     <ClInclude Include="LinkNode.h" />
     <ClInclude Include="listn.h" />
+    <ClInclude Include="Queue.h" />
     <ClInclude Include="SeqList.h" />
+    <ClInclude Include="SeqQueue.h" />
     <ClInclude Include="SLink.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="心得.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DataStructureDemo.cpp" />
     <ClCompile Include="Demo.cpp" />
     <ClCompile Include="expressionEvaluate.cpp" />
     <ClCompile Include="Maze.cpp" />
