@@ -18,6 +18,10 @@ public:
 	bool IsFull()const{ return false; };
 	int getSize()const;
 	void makeEmpty();
+	friend ostream& operator<<(ostream& os, LinkedStack<T>& Q){
+		os << Q.getSize();
+		return os;
+	};
 private:
 	LinkNode<T> *top;
 };
@@ -63,5 +67,15 @@ void LinkedStack<T>::makeEmpty(){
 		delete p;
 	}
 }
+//template <class T>
+//ostream& operator<<(ostream& os, LinkedStack<T>& Q){
+//	/*os << "front = " << Q.front << ", rear = " << Q.rear << endl;
+//
+//	for (int i = front; i != rear; i = (i + 1) % maxSize){
+//	os << i << ":" << Q.elements[i] << endl;
+//	}*/
+//	os << Q.getSize();
+//	return os;
+//}
 
 #endif

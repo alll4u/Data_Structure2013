@@ -1,7 +1,7 @@
 #ifndef STACK_H
 #define STACK_H
 #include <iostream>
-const int maxSize = 50;
+//const int maxSize = 50;
 template <class T>
 class Stack{
 public:
