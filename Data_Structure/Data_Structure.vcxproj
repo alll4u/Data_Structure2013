@@ -64,6 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="Deque.h" />
     <ClInclude Include="SeqDeque.h" />
     <ClInclude Include="LinearList.h" />
