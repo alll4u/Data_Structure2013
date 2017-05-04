@@ -48,6 +48,12 @@
     <ClInclude Include="LinkedQueue.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="SeqDeque.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Deque.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Demo.cpp">

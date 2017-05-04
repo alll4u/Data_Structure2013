@@ -28,12 +28,12 @@ void YANGHUI(int n){
 	}
 }
 
-int main(){
-
-	YANGHUI(4);
-
-
-
-	system("pause");
-	return 0;
-}
+//int main(){
+//
+//	YANGHUI(4);
+//
+//
+//
+//	system("pause");
+//	return 0;
+//}
